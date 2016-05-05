@@ -1,0 +1,15 @@
+﻿Создаем папку.
+sudo mkdir site
+
+Настраиваем права доступа.
+sudo chmod 777 site
+
+Переходим в папку.
+cd site
+
+Создаем package.json.
+npm init
+
+npm install express --save
+npm install socket.io --save
+npm install serialport --save
