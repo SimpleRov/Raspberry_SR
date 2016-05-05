@@ -10,6 +10,10 @@ cd site
 Создаем package.json.
 npm init
 
+Устанавливаем необходимые пакеты.
 npm install express --save
 npm install socket.io --save
 npm install serialport --save
+
+Тестовый пакет.
+npm install binary-parser --save
