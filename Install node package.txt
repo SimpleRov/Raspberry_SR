@@ -13,7 +13,7 @@ npm init
 Устанавливаем необходимые пакеты.
 npm install express --save
 npm install socket.io --save
-npm install serialport --save
+npm install serialport --build-from-source=serialport --save
 
 Тестовый пакет.
 npm install binary-parser --save
